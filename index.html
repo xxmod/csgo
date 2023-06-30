@@ -3,7 +3,7 @@
 <head>
   <title>CS:GO BO1 Banpick</title>
   <style>
-    /* CSS ÑùÊ½ */
+    /* CSS æ ·å¼ */
     body {
       font-family: Arial, sans-serif;
       background-color: #f9f9f9;
@@ -12,7 +12,7 @@
     }
      
     h1 {
-      color: #333;
+      color: #333; 
     }
     
     h2 {
@@ -48,10 +48,10 @@
   cursor: pointer;
   padding: 40px;
   background-color: #f1f1f1;
-  color: #ffffff; /* °×É«×ÖÌå */
+  color: #ffffff; /* ç™½è‰²å­—ä½“ */
   border-radius: 5px;
-  background-size: cover; /* ±³¾°Í¼À­Éì */
-  background-position: center; /* ±³¾°Í¼¾ÓÖĞ */
+  background-size: cover; /* èƒŒæ™¯å›¾æ‹‰ä¼¸ */
+  background-position: center; /* èƒŒæ™¯å›¾å±…ä¸­ */
 }
 
 
@@ -68,9 +68,9 @@
       margin-right: 10px;
     }
     
-    /* ×ÔÊÊÓ¦²¼¾Ö */
+    /* è‡ªé€‚åº”å¸ƒå±€ */
     @media only screen and (min-width: 768px) {
-      /* ´óÆÁÄ»ÑùÊ½ */
+      /* å¤§å±å¹•æ ·å¼ */
       body {
         max-width: 1200px;
         margin: 0 auto;
@@ -88,7 +88,7 @@
       }
     }
     
-    /* Material You ÑÕÉ«±äÁ¿ */
+    /* Material You é¢œè‰²å˜é‡ */
     :root {
       --brand-color: #6200ee;
       --on-brand-color: #ffffff;
@@ -100,36 +100,36 @@
 <body>
   <h1>CS:GO BO1 Banpick</h1>
   
-  <!-- ºì¶ÓÃû³Æ -->
+  <!-- çº¢é˜Ÿåç§° -->
   <div class="team-name">
-    <label for="team-red">ºì¶ÓÃû³Æ£º</label>
-    <input type="text" id="team-red" placeholder="ÇëÊäÈëºì¶ÓÃû³Æ" />
+    <label for="team-red">çº¢é˜Ÿåç§°ï¼š</label>
+    <input type="text" id="team-red" placeholder="è¯·è¾“å…¥çº¢é˜Ÿåç§°" />
   </div>
   
-  <!-- À¶¶ÓÃû³Æ -->
+  <!-- è“é˜Ÿåç§° -->
   <div class="team-name">
-    <label for="team-blue">À¶¶ÓÃû³Æ£º</label>
-    <input type="text" id="team-blue" placeholder="ÇëÊäÈëÀ¶¶ÓÃû³Æ" />
+    <label for="team-blue">è“é˜Ÿåç§°ï¼š</label>
+    <input type="text" id="team-blue" placeholder="è¯·è¾“å…¥è“é˜Ÿåç§°" />
   </div>
   
-  <!-- µØÍ¼ÁĞ±í -->
-<h2>µØÍ¼ÁĞ±í</h2>
+  <!-- åœ°å›¾åˆ—è¡¨ -->
+<h2>åœ°å›¾åˆ—è¡¨</h2>
 <ul id="map-list">
-  <!-- ÕâÀï½«ÏÔÊ¾ËùÓĞµÄµØÍ¼Ñ¡Ïî -->
-<li onclick="banMap(this)" style="background-image: url(éæÃü´óÏÃ.jpg)">éæÃü´óÏÃ</li>
-    <li onclick="banMap(this)" style="background-image: url(ËÀÍöÓÎÀÖÔ°.jpg)">ËÀÍöÓÎÀÖÔ°</li>
-    <li onclick="banMap(this)" style="background-image: url(Á¶ÓüĞ¡Õò.jpg)">Á¶ÓüĞ¡Õò</li>
-    <li onclick="banMap(this)" style="background-image: url(»ÄÄ®ÃÔ³Ç.jpg)">»ÄÄ®ÃÔ³Ç</li>
-    <li onclick="banMap(this)" style="background-image: url(ºË×ÓÎ£»ú.jpg)">ºË×ÓÎ£»ú</li>
-    <li onclick="banMap(this)" style="background-image: url(Ô¶¹ÅÒÅ¼£.png)">Ô¶¹ÅÒÅ¼£</li>
-    <li onclick="banMap(this)" style="background-image: url(°¢Å¬±ÈË¹.png)">°¢Å¬±ÈË¹</li>
+  <!-- è¿™é‡Œå°†æ˜¾ç¤ºæ‰€æœ‰çš„åœ°å›¾é€‰é¡¹ -->
+<li onclick="banMap(this)" style="background-image: url(æ®’å‘½å¤§å¦.jpg)">æ®’å‘½å¤§å¦</li>
+    <li onclick="banMap(this)" style="background-image: url(æ­»äº¡æ¸¸ä¹å›­.jpg)">æ­»äº¡æ¸¸ä¹å›­</li>
+    <li onclick="banMap(this)" style="background-image: url(ç‚¼ç‹±å°é•‡.jpg)">ç‚¼ç‹±å°é•‡</li>
+    <li onclick="banMap(this)" style="background-image: url(è’æ¼ è¿·åŸ.jpg)">è’æ¼ è¿·åŸ</li>
+    <li onclick="banMap(this)" style="background-image: url(æ ¸å­å±æœº.jpg)">æ ¸å­å±æœº</li>
+    <li onclick="banMap(this)" style="background-image: url(è¿œå¤é—è¿¹.png)">è¿œå¤é—è¿¹</li>
+    <li onclick="banMap(this)" style="background-image: url(é˜¿åŠªæ¯”æ–¯.png)">é˜¿åŠªæ¯”æ–¯</li>
   </ul>
 
   
-  <!-- Banpick ½á¹û -->
-  <h2>Banpick ½á¹û</h2>
+  <!-- Banpick ç»“æœ -->
+  <h2>Banpick ç»“æœ</h2>
   <div id="banpick-result">
-    <!-- ÕâÀï½«ÏÔÊ¾×îÖÕµÄ Banpick ½á¹û -->
+    <!-- è¿™é‡Œå°†æ˜¾ç¤ºæœ€ç»ˆçš„ Banpick ç»“æœ -->
   </div>
   
   <script>
@@ -137,48 +137,48 @@ const teamBlueInput = document.getElementById('team-blue');
 const teamRedInput = document.getElementById('team-red');
 const mapList = document.getElementById('map-list');
 const banpickResult = document.getElementById('banpick-result');
-const maps = []; // ´æ´¢¿É¹©Ñ¡ÔñµÄµØÍ¼
+const maps = []; // å­˜å‚¨å¯ä¾›é€‰æ‹©çš„åœ°å›¾
 
-// ³õÊ¼»¯µØÍ¼ÁĞ±í
+// åˆå§‹åŒ–åœ°å›¾åˆ—è¡¨
 for (let i = 0; i < mapList.children.length; i++) {
   maps.push(mapList.children[i]);
 }
 
-let turn = 'blue'; // µ±Ç°ÂÖµ½µÄ¶ÓÎé£¨ºì¶Ó»òÀ¶¶Ó£©
-let bannedMaps = []; // ´æ´¢±»½ûÓÃµÄµØÍ¼
-let pickedMaps = []; // ´æ´¢±»Ñ¡ÔñµÄµØÍ¼
+let turn = 'blue'; // å½“å‰è½®åˆ°çš„é˜Ÿä¼ï¼ˆçº¢é˜Ÿæˆ–è“é˜Ÿï¼‰
+let bannedMaps = []; // å­˜å‚¨è¢«ç¦ç”¨çš„åœ°å›¾
+let pickedMaps = []; // å­˜å‚¨è¢«é€‰æ‹©çš„åœ°å›¾
 
 function banMap(element) {
   const selectedMap = element.innerHTML;
   
   if (turn === 'blue') {
     bannedMaps.push(selectedMap);
-    element.style.display = 'none'; // Òş²Ø±»½ûÓÃµÄµØÍ¼°´¼ü
-    turn = 'red'; // ÇĞ»»µ½ºì¶Ó
+    element.style.display = 'none'; // éšè—è¢«ç¦ç”¨çš„åœ°å›¾æŒ‰é”®
+    turn = 'red'; // åˆ‡æ¢åˆ°çº¢é˜Ÿ
   } else if (turn === 'red') {
     bannedMaps.push(selectedMap);
-    element.style.display = 'none'; // Òş²Ø±»½ûÓÃµÄµØÍ¼°´¼ü
-    turn = 'pick_blue'; // ÇĞ»»µ½À¶¶ÓµÄÑ¡Ôñ»·½Ú
+    element.style.display = 'none'; // éšè—è¢«ç¦ç”¨çš„åœ°å›¾æŒ‰é”®
+    turn = 'pick_blue'; // åˆ‡æ¢åˆ°è“é˜Ÿçš„é€‰æ‹©ç¯èŠ‚
   } else if (turn === 'pick_blue') {
     pickedMaps.push(selectedMap);
-    element.style.display = 'none'; // Òş²Ø±»Ñ¡ÔñµÄµØÍ¼°´¼ü
-    turn = 'pick_red'; // ÇĞ»»µ½ºì¶ÓµÄÑ¡Ôñ»·½Ú
+    element.style.display = 'none'; // éšè—è¢«é€‰æ‹©çš„åœ°å›¾æŒ‰é”®
+    turn = 'pick_red'; // åˆ‡æ¢åˆ°çº¢é˜Ÿçš„é€‰æ‹©ç¯èŠ‚
   } else if (turn === 'pick_red') {
     pickedMaps.push(selectedMap);
-    element.style.display = 'none'; // Òş²Ø±»Ñ¡ÔñµÄµØÍ¼°´¼ü
-    turn = 'ban_blue'; // ÇĞ»»µ½À¶¶ÓµÄµÚ¶şÂÖ½ûÓÃ»·½Ú
+    element.style.display = 'none'; // éšè—è¢«é€‰æ‹©çš„åœ°å›¾æŒ‰é”®
+    turn = 'ban_blue'; // åˆ‡æ¢åˆ°è“é˜Ÿçš„ç¬¬äºŒè½®ç¦ç”¨ç¯èŠ‚
   } else if (turn === 'ban_blue') {
     bannedMaps.push(selectedMap);
-    element.style.display = 'none'; // Òş²Ø±»½ûÓÃµÄµØÍ¼°´¼ü
-    turn = 'ban_red'; // ÇĞ»»µ½ºì¶ÓµÄµÚ¶şÂÖ½ûÓÃ»·½Ú
+    element.style.display = 'none'; // éšè—è¢«ç¦ç”¨çš„åœ°å›¾æŒ‰é”®
+    turn = 'ban_red'; // åˆ‡æ¢åˆ°çº¢é˜Ÿçš„ç¬¬äºŒè½®ç¦ç”¨ç¯èŠ‚
   } else if (turn === 'ban_red') {
     bannedMaps.push(selectedMap);
-    element.style.display = 'none'; // Òş²Ø±»½ûÓÃµÄµØÍ¼°´¼ü
-    turn = 'pick_final'; // ÇĞ»»µ½×îºóÒ»ÂÖÑ¡Ôñ»·½Ú
+    element.style.display = 'none'; // éšè—è¢«ç¦ç”¨çš„åœ°å›¾æŒ‰é”®
+    turn = 'pick_final'; // åˆ‡æ¢åˆ°æœ€åä¸€è½®é€‰æ‹©ç¯èŠ‚
   } else if (turn === 'pick_final') {
     pickedMaps.push(selectedMap);
-    element.style.display = 'none'; // Òş²Ø±»Ñ¡ÔñµÄµØÍ¼°´¼ü
-    // BO3 Banpick Íê³É£¬¿ÉÒÔ½øĞĞºóĞø´¦Àí
+    element.style.display = 'none'; // éšè—è¢«é€‰æ‹©çš„åœ°å›¾æŒ‰é”®
+    // BO3 Banpick å®Œæˆï¼Œå¯ä»¥è¿›è¡Œåç»­å¤„ç†
     showBanpickResult();
     return;
   }
@@ -191,29 +191,29 @@ function showBanpickResult() {
   
   for (let i = 0; i < bannedMaps.length; i++) {
     if (i % 2 === 0) {
-      banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} ½ûÓÃ: ${bannedMaps[i]}</span><br>`;
+      banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} ç¦ç”¨: ${bannedMaps[i]}</span><br>`;
     } else {
-      banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} ½ûÓÃ: ${bannedMaps[i]}</span><br>`;
+      banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} ç¦ç”¨: ${bannedMaps[i]}</span><br>`;
     }
   }
   
   for (let i = 0; i < pickedMaps.length; i++) {
     if (i % 2 === 0) {
-      banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} Ñ¡Ôñ: ${pickedMaps[i]}</span><br>`;
+      banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} é€‰æ‹©: ${pickedMaps[i]}</span><br>`;
     } else {
-      banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} Ñ¡Ôñ: ${pickedMaps[i]}</span><br>`;
+      banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} é€‰æ‹©: ${pickedMaps[i]}</span><br>`;
     }
   }
   
-  banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} Ñ¡Ôñ: ${pickedMaps[2]}</span><br>`;
-  banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} Ñ¡Ôñ: ${pickedMaps[3]}</span><br>`;
-  banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} ½ûÓÃ: ${bannedMaps[2]}</span><br>`;
-  banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} ½ûÓÃ: ${bannedMaps[3]}</span><br>`;
-  banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} Ñ¡Ôñ: ${pickedMaps[4]}</span><br>`;
-  banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} Ñ¡Ôñ: ${pickedMaps[5]}</span><br>`;
-  banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} ½ûÓÃ: ${bannedMaps[4]}</span><br>`;
-  banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} ½ûÓÃ: ${bannedMaps[5]}</span><br>`;
-  banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} Ñ¡Ôñ: ${pickedMaps[6]}</span><br>`;
+  banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} é€‰æ‹©: ${pickedMaps[2]}</span><br>`;
+  banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} é€‰æ‹©: ${pickedMaps[3]}</span><br>`;
+  banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} ç¦ç”¨: ${bannedMaps[2]}</span><br>`;
+  banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} ç¦ç”¨: ${bannedMaps[3]}</span><br>`;
+  banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} é€‰æ‹©: ${pickedMaps[4]}</span><br>`;
+  banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} é€‰æ‹©: ${pickedMaps[5]}</span><br>`;
+  banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} ç¦ç”¨: ${bannedMaps[4]}</span><br>`;
+  banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} ç¦ç”¨: ${bannedMaps[5]}</span><br>`;
+  banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} é€‰æ‹©: ${pickedMaps[6]}</span><br>`;
 }
 
 function updateBanpickResult() {
@@ -221,32 +221,32 @@ function updateBanpickResult() {
   
   for (let i = 0; i < bannedMaps.length; i++) {
     if (i % 2 === 0) {
-      banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} ½ûÓÃ: ${bannedMaps[i]}</span><br>`;
+      banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} ç¦ç”¨: ${bannedMaps[i]}</span><br>`;
     } else {
-      banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} ½ûÓÃ: ${bannedMaps[i]}</span><br>`;
+      banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} ç¦ç”¨: ${bannedMaps[i]}</span><br>`;
     }
   }
   
   for (let i = 0; i < pickedMaps.length; i++) {
     if (i % 2 === 0) {
-      banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} Ñ¡Ôñ: ${pickedMaps[i]}</span><br>`;
+      banpickResult.innerHTML += `<span class="blue-text">${teamBlueInput.value} é€‰æ‹©: ${pickedMaps[i]}</span><br>`;
     } else {
-      banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} Ñ¡Ôñ: ${pickedMaps[i]}</span><br>`;
+      banpickResult.innerHTML += `<span class="red-text">${teamRedInput.value} é€‰æ‹©: ${pickedMaps[i]}</span><br>`;
     }
   }
 }
 
-// ¸üĞÂµØÍ¼ÁĞ±íÑùÊ½
+// æ›´æ–°åœ°å›¾åˆ—è¡¨æ ·å¼
 function updateMapListStyle() {
   for (let i = 0; i < mapList.children.length; i++) {
     const map = mapList.children[i];
-    map.style.fontSize = '18px'; // ÉèÖÃ×ÖÌå×ÖºÅÎª 18px
-    map.style.color = 'gray'; // ÉèÖÃ×ÖÌåÑÕÉ«Îª»ÒÉ«
-    map.style.backgroundSize = 'cover'; // ÉèÖÃ±³¾°Í¼ÎªÀ­Éì
+    map.style.fontSize = '18px'; // è®¾ç½®å­—ä½“å­—å·ä¸º 18px
+    map.style.color = 'gray'; // è®¾ç½®å­—ä½“é¢œè‰²ä¸ºç°è‰²
+    map.style.backgroundSize = 'cover'; // è®¾ç½®èƒŒæ™¯å›¾ä¸ºæ‹‰ä¼¸
   }
 }
 
-// ÔÚÒ³Ãæ¼ÓÔØÍê³ÉºóÖ´ĞĞ³õÊ¼»¯²Ù×÷
+// åœ¨é¡µé¢åŠ è½½å®Œæˆåæ‰§è¡Œåˆå§‹åŒ–æ“ä½œ
 window.onload = function() {
   updateMapListStyle();
 };
